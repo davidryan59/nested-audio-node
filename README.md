@@ -15,6 +15,6 @@ Do `npm install nested-audio-node` in your Javascript npm project directory. The
 ``` js
 import { NestedAudioNode } from 'nested-audio-node'
 
-// Control parameter 'freq', for duration 3, with value 320
+// Make new empty node (placeholder)
 const node1 = new NestedAudioNode()
 ```
