@@ -15,6 +15,13 @@ Do `npm install nested-audio-node` in your Javascript npm project directory. The
 ``` js
 import { NestedAudioNode } from 'nested-audio-node'
 
-// Make new empty node (placeholder)
+// Make new empty node
 const node1 = new NestedAudioNode()
+
+// Make new empty node (placeholder)
+const node2 = new NestedAudioNode({ library, type, init, verbose })
+// verbose is 0 (log nothing), 1 (log only errors),
+// 2 (log errors and completed nodes, default), 3 (log everything)
 ```
+
+### Verbosity
