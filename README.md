@@ -19,9 +19,7 @@ import { NestedAudioNode } from 'nested-audio-node'
 const node1 = new NestedAudioNode()
 
 // Make new empty node (placeholder)
-const node2 = new NestedAudioNode({ library, type, init, verbose })
-// verbose is 0 (log nothing), 1 (log only errors),
-// 2 (log errors and completed nodes, default), 3 (log everything)
+const node2 = new NestedAudioNode({ library, type, init })
 ```
 
 ### Verbosity
