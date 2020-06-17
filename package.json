@@ -28,7 +28,7 @@
     "is-object": "^1.0.1",
     "is-string": "^1.0.5",
     "isarray": "^2.0.5",
-    "log-count": "^1.1.0",
+    "log-count": "^1.2.0",
     "tone": "^13.8.25"
   },
   "devDependencies": {
